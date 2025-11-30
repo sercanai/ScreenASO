@@ -1,40 +1,35 @@
 # Repository Guidelines
 
-Quick guide for Screen ASO contributors. Keep changes small, log the commands you run, and prefer append-only outputs.
-
-## Project Structure & Modules
-- `cli/main.py` is the Typer entrypoint; subcommands live under `cli/commands/` with shared helpers in `cli/utils/`.
-- Core logic sits in `core/`: `app_store/` and `play_store/` scrapers, `analysis/` and `sentiment/` pipelines, `pdf_report_generator.py`, and `privacy.py`.
-- `gui/` hosts the Dear PyGui desktop app (`gui/screenaso_app.py`); `docs/` holds legal/user-facing copy.
-- Data artifacts: `outputs/` (scrapes/analyses/reports), `app_store_assets/`, store search dumps, `aso_results/`, and `pipeline_results/`. Use slugged paths such as `outputs/scrapes/<app-slug>/...` and avoid deleting history.
-- `example_pipeline.yml` is the template for custom pipelines; add new presets beside it.
+## Project Structure & Module Organization
+- CLI entrypoint: `cli/main.py` (Typer). Subcommands live in `cli/commands/` with helpers in `cli/utils/`.
+- Core logic: `core/app_store/`, `core/play_store/` (scrapers), `core/analysis/`, `core/sentiment/`, `core/pdf_report_generator.py`, and `core/privacy.py`.
+- Desktop GUI: `gui/screenaso_app.py` (Dear PyGui). User/legal copy sits in `docs/`.
+- Data artifacts: `outputs/`, `aso_results/`, `pipeline_results/`, `app_store_assets/`, and store search dumps. Use slugged paths like `outputs/scrapes/<app-slug>/...`; append new runs, do not delete history.
+- Templates/config: `example_pipeline.yml` (add new presets alongside). Models/cache live under `models/`.
 
 ## Build, Test, and Development Commands
-- Environment: `python -m venv .venv && source .venv/bin/activate`
+- Create env: `python -m venv .venv && source .venv/bin/activate`
 - Install: `pip install -r requirements.txt && pip install -e .`
-- Browser drivers for scraping: `python -m crawl4ai install-browsers`
-- CLI checks: `aso-cli --help` and `aso-cli quickref`; GUI: `pip install dearpygui && python gui/screenaso_app.py`
-- Format before pushing: `python -m black core/app_store core/play_store core/sentiment cli *.py`
+- Browser drivers (scraping): `python -m crawl4ai install-browsers`
+- CLI quick check: `aso-cli --help` and `aso-cli quickref`
+- Smoke runs (small limits): `aso-cli search app-store "test" --limit 1`, `aso-cli scrape app 1495297747 --reviews 5`, `aso-cli analyze reviews outputs/scrapes/*/scrape_*.json`, `aso-cli report generate outputs/analyses/aso_*.json`
+- GUI: `pip install dearpygui && python gui/screenaso_app.py`
 
 ## Coding Style & Naming Conventions
-- Python 3.10+, 4-space indents, type hints, and module-level docstrings for new files.
-- snake_case for functions/variables, PascalCase for classes, and concise Typer option names (kebab-case flags).
-- Keep console output Rich-friendly; reuse existing console helpers instead of ad-hoc prints.
-- Treat redaction tokens (`[REDACTED]`) as immutable—preserve or extend them when writing new outputs.
+- Python 3.10+, 4-space indents, type hints, snake_case functions/vars, PascalCase classes. Concise Typer options use kebab-case flags.
+- Keep console output Rich-friendly; reuse existing console/logging helpers rather than ad-hoc prints.
+- Format before pushing: `python -m black core/app_store core/play_store core/sentiment cli *.py`
+- Preserve `[REDACTED]` tokens and other PII masking; route new user text through `core/privacy.py`.
 
 ## Testing Guidelines
-- No formal test suite yet; run lightweight smoke checks:
-  - `aso-cli search app-store "test" --limit 1`
-  - `aso-cli scrape app 1495297747 --reviews 5`
-  - `aso-cli analyze reviews outputs/scrapes/*/scrape_*.json`
-  - `aso-cli report generate outputs/analyses/aso_*.json`
-- Use small limits; keep generated files under `outputs/` using the slug pattern.
+- No full test suite yet; rely on the smoke commands above after changes. Keep generated files under `outputs/` using slug patterns.
+- Keep tests/data lightweight; avoid committing large datasets. Extend `.gitignore` if a new cache folder appears.
 
 ## Commit & Pull Request Guidelines
-- Use short imperative commit subjects, mirroring current history.
-- PRs should list commands run, affected output paths, and new configuration flags; add screenshots or gifs for `gui/` changes.
-- Link issues/tasks, note sample IDs or sources, and avoid committing large datasets—extend `.gitignore` if a new cache folder is introduced.
+- Use short imperative commit subjects similar to current history.
+- PRs should list commands run, affected output paths, new flags/config, and link issues/tasks. Add screenshots or gifs for `gui/` updates.
+- Note sample IDs/sources; avoid committing new large datasets.
 
 ## Security & Configuration Tips
-- Do not hardcode API keys, proxies, or store credentials; prefer `.env` keys such as `APP_STORE_DEFAULT_COUNTRY`, `APP_STORE_DEFAULT_LANGUAGE`, and `APP_STORE_HTTP_PROXY`.
-- Preserve PII masking: new scrapers or analyzers must funnel user text through `core/privacy.py` before writing JSON/PDF/Markdown outputs.
+- Never hardcode API keys, proxies, or store credentials. Prefer `.env` vars such as `APP_STORE_DEFAULT_COUNTRY`, `APP_STORE_DEFAULT_LANGUAGE`, and `APP_STORE_HTTP_PROXY`.
+- Preserve PII masking in any new scraper/analyzer output (JSON/PDF/Markdown).
