@@ -1,16 +1,19 @@
 # Privacy Policy
 
-_Last updated: 2025-11-22_
+_Last updated: 2025-11-30_
 
 ## 1. Introduction
 
 Screen ASO (the "Tool") is an open-source App Store Optimization assistant built on top of a Typer-based CLI. The Tool runs entirely on your machine and does not send any of your inputs, outputs, or environment to remote servers unless you explicitly configure such integrations. This policy explains how the Tool collects, processes, and protects data when you run commands such as `search`, `collect`, `analyze`, `assets download`, or `report generate`.
 
+As an open-source project, Screen ASO is developed transparently and community contributions are welcome. The source code is available for review at our repository.
+
 ## 2. Data We Collect
 
-- **Review and metadata payloads:** When you collect data from apps or reviews, the Tool downloads publicly available metadata and reviews from the App Store and Play Store. These responses may contain reviewers’ names, titles, or bodies that reference personal identifiers; we never share them and we do not augment them with other data sources.
+- **Review and metadata payloads:** When you collect data from apps or reviews, the Tool downloads publicly available metadata and reviews from the App Store and Play Store. These responses may contain reviewers' names, titles, or bodies that reference personal identifiers; we never share them and we do not augment them with other data sources.
 - **Usage context:** The only persistent configuration values are those you provide via command-line arguments, environment variables (e.g., `APP_STORE_DEFAULT_COUNTRY`, `APP_STORE_HTTP_PROXY`), or pipeline YAML files. Inputs like app identifiers, search keywords, country/language filters, and limits are stored locally within your generated output files.
 - **No accounts:** There are no user accounts, logins, or tracking cookies tied to the Tool itself.
+- **No telemetry:** The Tool does not collect any usage statistics, crash reports, or telemetry data. All processing happens locally on your machine.
 
 ## 3. How We Use Your Data
 
@@ -39,7 +42,8 @@ Since the Tool runs locally:
 
 - You can view, move, or delete any generated files at any time.
 - If you wish to stop collection, simply halt the CLI and do not re-run the command.
-- For questions about how your local data is used, contact the email below.
+- The source code is available for inspection at our repository.
+- For questions about how your local data is used, please open an issue on our GitHub repository.
 
 ## 7. Third-Party Services
 
@@ -52,10 +56,19 @@ The Tool collects publicly available data from third-party platforms (Apple App 
 - Do not use collected data for purposes that violate platform policies (e.g., competitive intelligence that breaches terms)
 - You are solely liable for any violations of third-party terms of service; Screen ASO provides the tool but does not authorize or endorse any specific use case
 
-## 8. Changes to This Policy
+## 8. Open Source and Community
 
-We may update this policy to reflect changes in the Tool. Whenever possible, we will version new releases and call out the updated date at the top of this document.
+Screen ASO is an open-source project licensed under the MIT License. Community contributions are welcome and encouraged. For information about contributing, please see our CONTRIBUTING.md file in the repository.
 
-## 9. Contact
+## 9. Changes to This Policy
 
-If you have questions about this privacy policy, please send an email to `support@screenaso.com`.
+We may update this policy to reflect changes in the Tool. Whenever possible, we will version new releases and call out the updated date at the top of this document. All changes to this policy will be made transparently through our public repository.
+
+## 10. Contact
+
+For questions about this privacy policy, please:
+- Open an issue on our GitHub repository
+- Start a discussion in our GitHub Discussions
+- Review our source code for technical details
+
+We do not provide direct email support for this open-source project.

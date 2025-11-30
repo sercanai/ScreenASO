@@ -1,6 +1,6 @@
 # User Agreement
 
-_Last updated: 2025-11-22_
+_Last updated: 2025-11-30_
 
 ## 1. Acceptance of Terms
 
@@ -14,7 +14,8 @@ Screen ASO is distributed under the MIT License and provided "as-is". You need P
 
 - Do not use the Tool to collect content that you do not have permission to access.
 - Respect rate limits imposed by the App Store, Play Store, and any APIs you query.
-- Do not reverse engineer other vendors’ proprietary data models or siphon data for misuse.
+- Do not reverse engineer other vendors' proprietary data models or siphon data for misuse.
+- When contributing to the project, follow our Code of Conduct and Contributing guidelines.
 
 Any automation that breaches these rules may trigger rate-limiting, legal consequences, or termination of your right to use the CLI.
 
@@ -30,18 +31,29 @@ Running the Tool does not ship your local files anywhere else. We collect no tel
 
 The source code of Screen ASO is released under the MIT License. App metadata, review excerpts, and assets belong to their respective owners (Apple, Google, and the apps' publishers). You may use the Tool to analyze that publicly available data, but you may not claim ownership of third-party content or republish it in violation of the source platform's terms.
 
-## 7. Disclaimers
+## 7. Open Source Contributions
 
-THE TOOL IS PROVIDED WITHOUT WARRANTIES OF ANY KIND. WE DO NOT GUARANTEE THAT COLLECTED DATA IS ACCURATE, COMPLETE, OR ACCESSIBLE (App Store/Play Store availability may change). USE AT YOUR OWN RISK. 
+Screen ASO welcomes community contributions. By submitting code, documentation, or other contributions to this project, you agree that your contributions will be licensed under the same MIT License as the project. You also represent that you have the right to make these contributions and that they do not violate any third-party rights.
 
-## 8. Limitation of Liability
+For detailed contribution guidelines, please see CONTRIBUTING.md in the repository.
 
-IN NO EVENT WILL Screen ASO OR ITS CONTRIBUTORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF YOUR USE OF THE CLI, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. The total liability is limited to the amount you paid (if any) to download, install, or run the Tool.
+## 8. Disclaimers
 
-## 9. Modifications and Termination
+THE TOOL IS PROVIDED WITHOUT WARRANTIES OF ANY KIND. WE DO NOT GUARANTEE THAT COLLECTED DATA IS ACCURATE, COMPLETE, OR ACCESSIBLE (App Store/Play Store availability may change). USE AT YOUR OWN RISK.
+
+## 9. Limitation of Liability
+
+IN NO EVENT WILL Screen ASO Contributors OR ITS CONTRIBUTORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF YOUR USE OF THE CLI, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. The total liability is limited to the amount you paid (if any) to download, install, or run the Tool.
+
+## 10. Modifications and Termination
 
 We may update or discontinue the Tool at any time. If an update introduces breaking changes, we will document them in release notes. You may stop using the CLI whenever you like; doing so terminates your rights under this agreement.
 
-## 10. Governing Law and Contact
+## 11. Governing Law and Contact
 
-These terms are governed by the laws of the jurisdiction where you run the Tool. For questions or to report abuse, email `support@screenaso.com`.
+These terms are governed by the laws of the jurisdiction where you run the Tool. For questions or to report abuse:
+- Open an issue on our GitHub repository
+- Start a discussion in our GitHub Discussions
+- Review our Security Policy for vulnerability reporting
+
+We do not provide direct email support for this open-source project.
