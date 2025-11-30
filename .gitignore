@@ -1,0 +1,105 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment & Configuration
+.env
+.env.*
+*.local
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Generated Outputs (CLI)
+outputs/
+searches/
+scrapes/
+analyses/
+reports/
+
+# Generated Outputs (Legacy)
+app_store_search_results/
+play_store_search_results/
+app_store_downloads/
+app_store_assets/
+aso_results/
+pipeline_results
+
+# Test Files
+test_*.pdf
+test_*.json
+test_*.yml
+*_test.pdf
+*_test.json
+example_pipeline.yml
+
+# Models & Cache
+models/
+models/lid.176.bin
+.tldextract_cache/
+*.db
+*.sqlite
+
+# Logs & Temp
+*.log
+tmp/
+temp/
+.sarena/
+.serena/
+
+# Documentation (generated/temp)
+code_analysis_report.md
+TEMP_FILES_FIX.md
+WORDCLOUD_IMPROVEMENTS.md
+ASSET_DOWNLOAD_EXAMPLES.md
+USAGE.md
+test_screenshot_parse.py
+.serena
+aso_cli.egg-info
+outputs
+CLI_FIX_SUMMARY.md
+CLI_IMPLEMENTATION_REVIEW.md
+CLI_REFACTORING_PLAN.md
+MIGRATION_COMPLETE.md
+NASIL_KULLANILIR.md
+PDF_REPORT_TEST.md
+PROJECT_STRUCTURE.md
+example_pipeline.yml
+SCRIPTS.md
+PDF_UPDATES.md
+RUN_ASSET_DOWNLOAD.md
+PDF_UPDATES.md
+ASSET_PDF_ENHANCEMENTS.md
+ASSET_PDF_TEST.md
+PDF_IMPROVEMENTS.md
+docs/gui_hizli_rehber.md
+docs/ai_destekli_analiz_plani.md
+docs/aidesteklianalizplani.md
+docs/lisanstest.md
+docs/analysis-playbook.md
+docs/ai-analiz.md
