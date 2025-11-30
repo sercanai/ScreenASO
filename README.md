@@ -8,14 +8,14 @@ Screen ASO is a CLI tool for App Store and Play Store research: metadata collect
 
 ## Highlights
 
-- ⚡ **Modern CLI** – Typer + Rich with progress bars and color-coded output
-- 🔄 **Pipeline Workflows** – YAML-defined flows for keyword research and competitor analysis
-- 😊 **Sentiment Analysis** – 170+ languages with aspect tagging
-- 🔑 **Keyword Extraction** – KeyBERT-driven semantic extraction
-- 📊 **PDF Reports** – Executive summaries with redacted review excerpts
-- 🎨 **Asset Download** – Multi-country icons and screenshots
-- 🤖 **AI Assist** – Gemini/OpenRouter integration with host allowlisting
-- 🛡️ **Auto Redaction** – Review fields masked before persistence
+- **Modern CLI** – Typer + Rich with progress bars and color-coded output
+- **Pipeline Workflows** – YAML-defined flows for keyword research and competitor analysis
+- **Sentiment Analysis** – English language support with aspect tagging
+- **Keyword Extraction** – KeyBERT-driven semantic extraction
+- **PDF Reports** – Executive summaries with redacted review excerpts
+- **Asset Download** – Multi-country icons and screenshots
+- **AI Assist** – Gemini/OpenRouter integration with host allowlisting
+- **Auto Redaction** – Review fields masked before persistence
 
 ## Quick Start
 
@@ -92,4 +92,4 @@ Use `.env` for config: `APP_STORE_DEFAULT_COUNTRY`, `APP_STORE_DEFAULT_LANGUAGE`
 - `core/sentiment/README.md` – Sentiment details
 - `core/privacy.py` – PII redaction
 
-Happy analyzing! 🚀
+Happy analyzing!

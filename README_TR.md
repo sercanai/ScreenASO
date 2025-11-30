@@ -8,14 +8,14 @@ Screen ASO, App Store ve Play Store için metadata toplama, yorum kazıma, senti
 
 ## Öne Çıkanlar
 
-- ⚡ **Modern CLI** – Typer + Rich ile progress bar ve renkli çıktı
-- 🔄 **Pipeline** – YAML tabanlı keyword araştırması ve rakip analizi
-- 😊 **Sentiment Analizi** – 170+ dil, aspect etiketleme
-- 🔑 **Keyword Çıkarımı** – KeyBERT ile anlamsal analiz
-- 📊 **PDF Raporları** – Maskelenmiş yorumlarla profesyonel raporlar
-- 🎨 **Asset İndirme** – Çoklu ülke ikon ve screenshot
-- 🤖 **AI Assist** – Gemini/OpenRouter entegrasyonu
-- 🛡️ **Otomatik Sansür** – Review alanları otomatik maskelenir
+- **Modern CLI** – Typer + Rich ile progress bar ve renkli çıktı
+- **Pipeline** – YAML tabanlı keyword araştırması ve rakip analizi
+- **Sentiment Analizi** – İngilizce dil desteği, aspect etiketleme
+- **Keyword Çıkarımı** – KeyBERT ile anlamsal analiz
+- **PDF Raporları** – Maskelenmiş yorumlarla profesyonel raporlar
+- **Asset İndirme** – Çoklu ülke ikon ve screenshot
+- **AI Assist** – Gemini/OpenRouter entegrasyonu
+- **Otomatik Sansür** – Review alanları otomatik maskelenir
 
 ## Hızlı Başlangıç
 
@@ -92,4 +92,4 @@ Konfigürasyon için `.env` kullanın: `APP_STORE_DEFAULT_COUNTRY`, `APP_STORE_D
 - `core/sentiment/README.md` – Sentiment detayları
 - `core/privacy.py` – PII sansür
 
-İyi analizler! 🚀
+İyi analizler!
