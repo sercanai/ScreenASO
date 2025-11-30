@@ -21,7 +21,7 @@ Screen ASO is a CLI tool for App Store and Play Store research: metadata collect
 
 ```bash
 # Setup
-git clone <repository-url> && cd aso-yorum-cli
+git clone <repository-url> && cd screenaso-v1
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt && pip install -e .
 python -m crawl4ai install-browsers
@@ -82,6 +82,7 @@ python -m black core/app_store core/play_store core/sentiment cli *.py
 aso-cli search app-store "test" --limit 1
 aso-cli scrape app 1495297747 --reviews 5
 aso-cli analyze reviews outputs/scrapes/*/scrape_*.json
+aso-cli report generate outputs/analyses/aso_*.json
 ```
 
 Use `.env` for config: `APP_STORE_DEFAULT_COUNTRY`, `APP_STORE_DEFAULT_LANGUAGE`, `APP_STORE_HTTP_PROXY`

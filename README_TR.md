@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![CLI](https://img.shields.io/badge/CLI-Typer-orange.svg)](https://typer.tiangolo.com/)
 
-Screen ASO, App Store ve Play Store için metadata toplama, yorum kazıma, sentiment analizi, keyword çıkarımı ve PDF raporlama yapan CLI aracıdır.
+Screen ASO, App Store ve Play Store için metadata toplama, yorum kazıma, sentiment analizi, keyword çıkarımı, asset indirme ve PDF raporlama yapan bir CLI aracıdır.
 
 ## Öne Çıkanlar
 
@@ -14,14 +14,14 @@ Screen ASO, App Store ve Play Store için metadata toplama, yorum kazıma, senti
 - **Keyword Çıkarımı** – KeyBERT ile anlamsal analiz
 - **PDF Raporları** – Maskelenmiş yorumlarla profesyonel raporlar
 - **Asset İndirme** – Çoklu ülke ikon ve screenshot
-- **AI Assist** – Gemini/OpenRouter entegrasyonu
+- **AI Assist** – Gemini/OpenRouter entegrasyonu ve host allowlist kontrolü
 - **Otomatik Sansür** – Review alanları otomatik maskelenir
 
 ## Hızlı Başlangıç
 
 ```bash
 # Kurulum
-git clone <repository-url> && cd aso-yorum-cli
+git clone <repository-url> && cd screenaso-v1
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt && pip install -e .
 python -m crawl4ai install-browsers
@@ -82,6 +82,7 @@ python -m black core/app_store core/play_store core/sentiment cli *.py
 aso-cli search app-store "test" --limit 1
 aso-cli scrape app 1495297747 --reviews 5
 aso-cli analyze reviews outputs/scrapes/*/scrape_*.json
+aso-cli report generate outputs/analyses/aso_*.json
 ```
 
 Konfigürasyon için `.env` kullanın: `APP_STORE_DEFAULT_COUNTRY`, `APP_STORE_DEFAULT_LANGUAGE`, `APP_STORE_HTTP_PROXY`
