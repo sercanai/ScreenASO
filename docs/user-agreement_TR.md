@@ -8,7 +8,7 @@ Screen ASO (`aso-cli`) kullandığınız sürece bu şartları ve ileride yapıl
 
 ## 2. Erişim ve Uygunluk
 
-Screen ASO ticari bir lisansla dağıtılır ve “olduğu gibi” sağlanır. Lisans, geliştiriciden satın alma yoluyla veya yazılı onayla verilir; CLI, yardımcı modüller ve dokümantasyon kapalı kaynak olarak kalır. Python 3.10+, `requirements.txt`’te listelenen bağımlılıklar ve isteğe bağlı olarak `python -m crawl4ai install-browsers` ile kurulan tarayıcı altyapısına sahip olmanız gerekir. Lisans anahtarları, yükleyiciler ve depo içeriğini gizli tutun—izinsiz dağıtım, açık kaynakta yayımlama veya kodu barındırma, Araç’ı kullanma hakkınızı sona erdirir. Veri toplama veya varlık indirme sırasında bağlandığınız üçüncü taraf hesaplar (Apple Developer, Google Play Console vb.) sizin sorumluluğunuzdadır.
+Screen ASO, MIT Lisansı altında dağıtılır ve "olduğu gibi" sağlanır. Python 3.10+, `requirements.txt`'te listelenen bağımlılıklar ve isteğe bağlı olarak `python -m crawl4ai install-browsers` ile kurulan tarayıcı altyapısına sahip olmanız gerekir. Lisans şartlarına uygun olarak Araç'ı kullanmak, değiştirmek ve dağıtmak serbesttir. Veri toplama veya varlık indirme sırasında bağlandığınız üçüncü taraf hesaplar (Apple Developer, Google Play Console vb.) sizin sorumluluğunuzdadır.
 
 ## 3. Kabul Edilebilir Kullanım
 
@@ -28,7 +28,7 @@ Araç yerel dosyalarınızı başka bir yere göndermez. Komut satırı argüman
 
 ## 6. Fikri Mülkiyet
 
-Bu depodaki tüm kod geliştiricinin mülkiyetinde kalır ve üzerinde anlaşılmış ticari şartlarla lisanslanmıştır. Uygulama meta verileri, inceleme alıntıları ve varlıklar Apple, Google ve uygulama yayıncılarının mülkiyetindedir. Araç’ı sadece herkese açık verileri analiz etmek için kullanabilirsiniz; üçüncü taraf içeriği sahiplenemez, kaynak platformların kurallarını veya ticari sözleşmenizi ihlal edecek şekilde yeniden yayımlayamazsınız.
+Screen ASO kaynak kodu MIT Lisansı altında yayımlanmıştır. Uygulama meta verileri, inceleme alıntıları ve varlıklar Apple, Google ve uygulama yayıncılarının mülkiyetindedir. Araç'ı sadece herkese açık verileri analiz etmek için kullanabilirsiniz; üçüncü taraf içeriği sahiplenemez veya kaynak platformların kurallarını ihlal edecek şekilde yeniden yayımlayamazsınız.
 
 ## 7. Feragatnameler
 

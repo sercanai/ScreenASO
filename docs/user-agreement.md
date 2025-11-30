@@ -8,7 +8,7 @@ By using Screen ASO (`aso-cli`), you agree to these terms and to any future amen
 
 ## 2. Access and Eligibility
 
-Screen ASO is distributed under a proprietary commercial license and provided “as-is”. Access is granted after you purchase a license or receive written authorization from the developer; the CLI, helper modules, and documentation remain closed-source. You need Python 3.10+, the dependencies listed in `requirements.txt`, and an optional browser stack via `python -m crawl4ai install-browsers`. Keep any license keys, installers, and repository contents private—unauthorized redistribution, open-source publication, or hosting of the code terminates your right to use the Tool. You are responsible for any third-party accounts (Apple Developer, Google Play Console) you integrate while collecting data or downloading assets.
+Screen ASO is distributed under the MIT License and provided "as-is". You need Python 3.10+, the dependencies listed in `requirements.txt`, and an optional browser stack via `python -m crawl4ai install-browsers`. You are free to use, modify, and distribute the Tool in accordance with the license terms. You are responsible for any third-party accounts (Apple Developer, Google Play Console) you integrate while collecting data or downloading assets.
 
 ## 3. Acceptable Use
 
@@ -28,7 +28,7 @@ Running the Tool does not ship your local files anywhere else. We collect no tel
 
 ## 6. Intellectual Property
 
-All code in this repository is proprietary and licensed under the commercial terms agreed with the developer. App metadata, review excerpts, and assets belong to their respective owners (Apple, Google, and the apps’ publishers). You may use the Tool to analyze that publicly available data, but you may not claim ownership of third-party content or republish it in violation of the source platform’s terms or your commercial agreement.
+The source code of Screen ASO is released under the MIT License. App metadata, review excerpts, and assets belong to their respective owners (Apple, Google, and the apps' publishers). You may use the Tool to analyze that publicly available data, but you may not claim ownership of third-party content or republish it in violation of the source platform's terms.
 
 ## 7. Disclaimers
 

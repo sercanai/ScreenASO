@@ -4,7 +4,7 @@ _Son güncelleme: 2025-11-22_
 
 ## 1. Giriş
 
-Screen ASO (bundan sonra “Araç”), Typer tabanlı bir CLI üstüne kurulu, ticari lisanslı ve özel kaynaklı bir App Store Optimizasyon yardımcısıdır. CLI ve yardımcı modüller açık kaynak olarak yayımlanmaz; yalnızca ücretli müşterilere veya yetkili iş ortaklarına dağıtılır. Araç tamamen sizin makinenizde çalışır ve siz açıkça bu şekilde yapılandırmadığınız sürece girdilerinizi, çıktılarını veya ortamınızı uzak sunuculara göndermez. Bu politika, `search`, `collect`, `analyze`, `assets download` veya `report generate` gibi komutları çalıştırırken aracın hangi verileri topladığını, işlediğini ve koruduğunu açıklar.
+Screen ASO (bundan sonra "Araç"), Typer tabanlı bir CLI üstüne kurulu, açık kaynaklı bir App Store Optimizasyon yardımcısıdır. Araç tamamen sizin makinenizde çalışır ve siz açıkça bu şekilde yapılandırmadığınız sürece girdilerinizi, çıktılarını veya ortamınızı uzak sunuculara göndermez. Bu politika, `search`, `collect`, `analyze`, `assets download` veya `report generate` gibi komutları çalıştırırken aracın hangi verileri topladığını, işlediğini ve koruduğunu açıklar.
 
 ## 2. Topladığımız Veriler
 

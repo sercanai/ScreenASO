@@ -4,7 +4,7 @@ _Last updated: 2025-11-22_
 
 ## 1. Introduction
 
-Screen ASO (the “Tool”) is a commercially licensed, proprietary App Store Optimization assistant built on top of a Typer-based CLI. The CLI and its helper modules are not published as open-source; they are distributed to paying customers or authorized partners only. We run entirely on your machine and do not send any of your inputs, outputs, or environment to remote servers unless you explicitly configure such integrations. This policy explains how the Tool collects, processes, and protects data when you run commands such as `search`, `collect`, `analyze`, `assets download`, or `report generate`.
+Screen ASO (the "Tool") is an open-source App Store Optimization assistant built on top of a Typer-based CLI. The Tool runs entirely on your machine and does not send any of your inputs, outputs, or environment to remote servers unless you explicitly configure such integrations. This policy explains how the Tool collects, processes, and protects data when you run commands such as `search`, `collect`, `analyze`, `assets download`, or `report generate`.
 
 ## 2. Data We Collect
 
