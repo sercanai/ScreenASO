@@ -44,13 +44,6 @@ aso-cli quick app com.example.app --reviews 100 --report
 aso-cli assets download 123456789 --countries US,TR,GB
 ```
 
-### Pipeline
-
-```bash
-aso-cli pipeline create keyword_research.yml
-aso-cli pipeline run keyword_research.yml
-```
-
 ## Çıktı Yapısı
 
 | Dizin | İçerik |
@@ -89,8 +82,8 @@ Konfigürasyon için `.env` kullanın: `APP_STORE_DEFAULT_COUNTRY`, `APP_STORE_D
 
 ## Dokümantasyon
 
-- `aso-cli --help` / `aso-cli quickref`
-- `core/sentiment/README.md` – Sentiment detayları
-- `core/privacy.py` – PII sansür
+- Kullanım kılavuzu: `docs/USAGE.md` (CLI/quick workflow'lar, çıktılar, GUI)
+- CLI referansı: `aso-cli --help` / `aso-cli quickref`
+- PII sansür: `core/privacy.py`
 
 İyi analizler!

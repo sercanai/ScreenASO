@@ -44,13 +44,6 @@ aso-cli quick app com.example.app --reviews 100 --report
 aso-cli assets download 123456789 --countries US,TR,GB
 ```
 
-### Pipeline
-
-```bash
-aso-cli pipeline create keyword_research.yml
-aso-cli pipeline run keyword_research.yml
-```
-
 ## Output Structure
 
 | Directory | Content |
@@ -89,8 +82,8 @@ Use `.env` for config: `APP_STORE_DEFAULT_COUNTRY`, `APP_STORE_DEFAULT_LANGUAGE`
 
 ## Documentation
 
-- `aso-cli --help` / `aso-cli quickref`
-- `core/sentiment/README.md` – Sentiment details
-- `core/privacy.py` – PII redaction
+- Usage guide: `docs/USAGE.md` (CLI/quick workflows, outputs, GUI)
+- CLI reference: `aso-cli --help` / `aso-cli quickref`
+- PII redaction: `core/privacy.py`
 
 Happy analyzing!
