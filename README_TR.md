@@ -18,13 +18,22 @@ Screen ASO, App Store ve Play Store için metadata toplama, yorum kazıma, senti
 
 ## Hızlı Başlangıç
 
+1) Klonla ve ortam hazırla
 ```bash
-# Kurulum
 git clone <repository-url> && cd screenaso-v1
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt && pip install -e .
+```
+
+2) Tarayıcı kurulumu (kazıma için tek seferlik)
+```bash
 python -m crawl4ai install-browsers
+```
+
+3) Kontrol
+```bash
 aso-cli --help
+aso-cli quickref
 ```
 
 ### Temel Komutlar
