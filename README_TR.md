@@ -81,9 +81,12 @@ Konfigürasyon için `.env` kullanın: `APP_STORE_DEFAULT_COUNTRY`, `APP_STORE_D
 
 ## Dokümantasyon
 
-- Kullanım kılavuzu: `docs/USAGE.md` (CLI/quick workflow'lar, çıktılar, GUI)
+- Kullanım kılavuzu: `docs/USAGE_EN.md` (CLI/quick workflow'lar, çıktılar, GUI)
 - CLI referansı: `aso-cli --help` / `aso-cli quickref`
-- PII sansür: `core/privacy.py`
+
+## Katkı
+- Hata/istekler için issue açın; çalıştırdığınız komutları ve varsa örnek ID'leri ekleyin.
+- PR'ler memnuniyetle; kısa bir değişiklik özeti, çalıştırdığınız komutlar ve etkilenen çıktı/dizinleri ekleyin.
 
 İyi analizler!
 

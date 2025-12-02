@@ -81,9 +81,12 @@ Use `.env` for config: `APP_STORE_DEFAULT_COUNTRY`, `APP_STORE_DEFAULT_LANGUAGE`
 
 ## Documentation
 
-- Usage guide: `docs/USAGE.md` (CLI/quick workflows, outputs, GUI)
+- Usage guide: `docs/USAGE_EN.md` (CLI/quick workflows, outputs, GUI)
 - CLI reference: `aso-cli --help` / `aso-cli quickref`
-- PII redaction: `core/privacy.py`
+
+## Contributing
+- Open issues for bugs/requests with commands you ran and sample IDs if applicable.
+- PRs welcome—add a brief change summary, commands you ran, and notable output files/paths.
 
 Happy analyzing!
 
