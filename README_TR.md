@@ -9,7 +9,6 @@ Screen ASO, App Store ve Play Store için metadata toplama, yorum kazıma, senti
 ## Öne Çıkanlar
 
 - **Modern CLI** – Typer + Rich ile progress bar ve renkli çıktı
-- **Pipeline** – YAML tabanlı keyword araştırması ve rakip analizi
 - **Sentiment Analizi** – İngilizce dil desteği, aspect etiketleme
 - **Keyword Çıkarımı** – KeyBERT ile anlamsal analiz
 - **PDF Raporları** – Maskelenmiş yorumlarla profesyonel raporlar
@@ -87,3 +86,7 @@ Konfigürasyon için `.env` kullanın: `APP_STORE_DEFAULT_COUNTRY`, `APP_STORE_D
 - PII sansür: `core/privacy.py`
 
 İyi analizler!
+
+<a href="https://github.com/unclecode/crawl4ai">
+  <img src="https://raw.githubusercontent.com/unclecode/crawl4ai/main/docs/assets/powered-by-dark.svg" alt="Powered by Crawl4AI" width="200"/>
+</a>

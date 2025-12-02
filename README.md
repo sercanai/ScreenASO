@@ -9,7 +9,6 @@ Screen ASO is a CLI tool for App Store and Play Store research: metadata collect
 ## Highlights
 
 - **Modern CLI** – Typer + Rich with progress bars and color-coded output
-- **Pipeline Workflows** – YAML-defined flows for keyword research and competitor analysis
 - **Sentiment Analysis** – English language support with aspect tagging
 - **Keyword Extraction** – KeyBERT-driven semantic extraction
 - **PDF Reports** – Executive summaries with redacted review excerpts
@@ -87,3 +86,7 @@ Use `.env` for config: `APP_STORE_DEFAULT_COUNTRY`, `APP_STORE_DEFAULT_LANGUAGE`
 - PII redaction: `core/privacy.py`
 
 Happy analyzing!
+
+<a href="https://github.com/unclecode/crawl4ai">
+  <img src="https://raw.githubusercontent.com/unclecode/crawl4ai/main/docs/assets/powered-by-dark.svg" alt="Powered by Crawl4AI" width="200"/>
+</a>
