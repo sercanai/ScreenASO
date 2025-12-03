@@ -25,7 +25,7 @@ pip install -r requirements.txt && pip install -e .
 ```
 On Windows, activate the venv with `.venv\Scripts\activate` instead of the POSIX source command.
 
-2) Install browsers (once for scraping)
+2) Install browsers
 ```bash
 python -m playwright install
 ```

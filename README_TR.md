@@ -25,7 +25,7 @@ pip install -r requirements.txt && pip install -e .
 ```
 Windows’ta sanal ortamı etkinleştirmek için POSIX `source` yerine `.venv\Scripts\activate` kullanın.
 
-2) Tarayıcı kurulumu (kazıma için tek seferlik)
+2) Tarayıcı kurulumu
 ```bash
 python -m playwright install
 ```
