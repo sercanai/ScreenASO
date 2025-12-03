@@ -23,6 +23,7 @@ git clone <repository-url> && cd screenaso-v1
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt && pip install -e .
 ```
+Windows’ta sanal ortamı etkinleştirmek için POSIX `source` yerine `.venv\Scripts\activate` kullanın.
 
 2) Tarayıcı kurulumu (kazıma için tek seferlik)
 ```bash

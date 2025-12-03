@@ -23,6 +23,7 @@ git clone <repository-url> && cd screenaso-v1
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt && pip install -e .
 ```
+On Windows, activate the venv with `.venv\Scripts\activate` instead of the POSIX source command.
 
 2) Install browsers (once for scraping)
 ```bash
