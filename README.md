@@ -19,7 +19,7 @@ Screen ASO is a CLI tool for App Store and Play Store research: metadata collect
 
 1) Clone & env
 ```bash
-git clone <repository-url> && cd screenaso-v1
+git clone https://github.com/sercanai/ScreenASO && cd screenaso-v1
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt && pip install -e .
 ```
