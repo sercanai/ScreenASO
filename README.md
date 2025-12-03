@@ -8,7 +8,6 @@ Screen ASO is a CLI tool for App Store and Play Store research: metadata collect
 
 ## Highlights
 
-- **Modern CLI** – Typer + Rich with progress bars and color-coded output
 - **Sentiment Analysis** – English language support with aspect tagging
 - **Keyword Extraction** – KeyBERT-driven semantic extraction
 - **PDF Reports** – Executive summaries with redacted review excerpts

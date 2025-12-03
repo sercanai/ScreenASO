@@ -8,7 +8,6 @@ Screen ASO, App Store ve Play Store için metadata toplama, yorum kazıma, senti
 
 ## Öne Çıkanlar
 
-- **Modern CLI** – Typer + Rich ile progress bar ve renkli çıktı
 - **Sentiment Analizi** – İngilizce dil desteği, aspect etiketleme
 - **Keyword Çıkarımı** – KeyBERT ile anlamsal analiz
 - **PDF Raporları** – Maskelenmiş yorumlarla profesyonel raporlar
