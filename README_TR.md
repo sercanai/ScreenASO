@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![CLI](https://img.shields.io/badge/CLI-Typer-orange.svg)](https://typer.tiangolo.com/)
 
-Screen ASO, App Store ve Play Store için metadata toplama, yorum kazıma, sentiment analizi, keyword çıkarımı, asset indirme ve PDF raporlama yapan bir CLI aracıdır.
+Screen ASO, App Store ve Play Store için metadata toplama, yorum kazıma, sentiment analizi, keyword çıkarımı, asset indirme ve PDF raporlama yapan bir CLI aracıdır. Ayrıca tek bir ekran üzerinde metadata analizi, asset indirme ve rakip takibini birleştiren güçlü bir masaüstü arayüzü sunar.
 
 ## Öne Çıkanlar
 
@@ -64,12 +64,14 @@ aso-cli assets download 123456789 --countries US,TR,GB
 
 Tüm çıktılar slug bazlı (`<app-slug>/`) ve append-only tutulur.
 
-## Masaüstü GUI
+## Masaüstü Arayüzü
 
 ```bash
 pip install dearpygui
 python gui/screenaso_app.py
 ```
+
+Accelerate Your ASO Workflow With One Desktop Tool — App Store ve Play Store için tasarlanmış bu güçlü masaüstü arayüzüyle metadata analizi, asset indirme ve rakip takibini tek bir ekranda yapabilirsiniz.
 
 **Sekmeler**: Assets Download, Quick Search, Quick Keyword, Quick App, AI Assist, Results & History
 

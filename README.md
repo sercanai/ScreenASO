@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![CLI](https://img.shields.io/badge/CLI-Typer-orange.svg)](https://typer.tiangolo.com/)
 
-Screen ASO is a CLI tool for App Store and Play Store research: metadata collection, review scraping, sentiment analysis, keyword extraction, asset downloads, and PDF reporting. For Turkish, see [README_TR.md](README_TR.md).
+Screen ASO is a CLI tool for App Store and Play Store research: metadata collection, review scraping, sentiment analysis, keyword extraction, asset downloads, and PDF reporting. It also offers a powerful desktop interface to accelerate your ASO workflow with metadata analysis, asset downloads, and competitor tracking all on one screen. For Turkish, see [README_TR.md](README_TR.md).
 
 ## Highlights
 
@@ -64,12 +64,14 @@ aso-cli assets download 123456789 --countries US,TR,GB
 
 All outputs are slug-based (`<app-slug>/`) and append-only.
 
-## Desktop GUI
+## Desktop Interface
 
 ```bash
 pip install dearpygui
 python gui/screenaso_app.py
 ```
+
+Accelerate Your ASO Workflow With One Desktop Tool — a powerful desktop interface built for the App Store and Play Store. Metadata analysis, asset downloads, and competitor tracking all appear on one screen.
 
 **Tabs**: Assets Download, Quick Search, Quick Keyword, Quick App, AI Assist, Results & History
 
