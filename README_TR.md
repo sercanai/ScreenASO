@@ -29,6 +29,10 @@ pip install -r requirements.txt && pip install -e .
 python -m playwright install
 ```
 
+## Platform Desteği
+
+macOS üzerinde test edildi; Windows ve Linux henüz doğrulanmadı.
+
 3) Kontrol
 ```bash
 aso-cli --help
