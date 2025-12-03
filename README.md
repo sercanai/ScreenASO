@@ -32,7 +32,7 @@ python -m playwright install
 
 ## Platform Support
 
-Tested on macOS. CLI commands run on Windows/Linux, but the desktop interface currently has issues there.
+⚠️ Tested on macOS. CLI commands run on Windows/Linux, but the desktop interface currently has issues there.
 
 3) Sanity check
 ```bash
