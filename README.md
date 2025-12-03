@@ -26,7 +26,7 @@ pip install -r requirements.txt && pip install -e .
 
 2) Install browsers (once for scraping)
 ```bash
-python -m crawl4ai install-browsers
+python -m playwright install
 ```
 
 3) Sanity check
