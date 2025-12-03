@@ -31,7 +31,7 @@ python -m playwright install
 
 ## Platform Desteği
 
-macOS üzerinde test edildi; Windows ve Linux henüz doğrulanmadı.
+macOS üzerinde test edildi. Windows/Linux’ta CLI çalışıyor, ancak masaüstü arayüzü şu anda sorunlu.
 
 3) Kontrol
 ```bash
